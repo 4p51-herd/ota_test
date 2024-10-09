@@ -1,7 +1,7 @@
 from ota import OTAUpdater
 from WIFI_CONFIG import SSID, PASSWORD
 
-firmware_url = "https://github.com/4p51-herd/Orion/main/"
+firmware_url = "https://raw.githubusercontent.com/4p51-herd/ota_test/"
 
 ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "test_ota.py")
 
